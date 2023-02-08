@@ -1,0 +1,160 @@
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*=============== HEADER & NAV ===============*/
+.hero__section {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  /* color: white; */
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: 80px;
+  /* background-color: rgb(196, 119, 19); */
+}
+
+.navbar ul {
+    margin-top: 7%;
+  display: flex;
+  gap: 45px;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:focus {
+  color: orange;
+}
+.navbar ul li a:hover {
+  color: rgb(156, 156, 231);
+}
+
+.navbar .nav__logo img {
+  margin-top: 22%;
+  margin-left: 5%;
+  background-position: center;
+  padding: 0px 46px;
+  align-items: center;
+  width: 250px;
+}
+.navbar .nav__menu {
+ margin-right: 80px;
+  display: flex;
+  padding:0px  60px;
+  /* gap: 900px; */
+}
+
+.nav__close {
+  display: none;
+}
+
+.hero__section_container {
+  /* background: url(assets/img/hero.jpg); */
+  background: url(https://vedpad.com/wp-content/uploads/2022/01/Web-Banner-01-1526x1080.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-self: center;
+  background-position: center;
+  min-height: 105vh;
+  left: 0;
+  right: 0;
+}
+.hero__section_input_container {
+  position: absolute;
+  top: 19%;
+  margin-left: 7%;
+  padding: 70px 0px 10px 10px;
+  margin-right: 50%;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 9.1px;
+}
+
+.hero__section_title {
+  color: #6422cd;
+  margin-top: 3%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 2.1rem;
+  line-height: 54px;
+}
+
+.hero__section_title .content {
+    /* display: inline; */
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+    margin-left:30%;
+  color: black;
+}
+.paragraphbig {
+  color: rgb(80, 68, 68);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  font-weight: 600;
+  padding: 17px 13px;
+  letter-spacing: 0.5px;
+}
+.btn {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  background-color: #6422cd;
+  margin-left: 2%;
+  padding: 15px 20px;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+  transition-duration: 1sec;
+  cursor: pointer;
+}
+.hero__img-2 {
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 50%;
+  height: 160px;
+  z-index: -8;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero__section {
+    position: absolute;
+  }
+  .hero__section_container {
+    justify-self: center;
+    flex-wrap: wrap;
+    left: 0;
+    right: 0;
+  }
+
+  .hero__section_title {
+    color: #6422cd;
+    font-size: 1rem;
+  }
+  .paragraphbig {
+    padding: 17px 13px;
+  }
+
+  .hero__section_input_container h3 {
+    font-size: 20px;
+  }
+}
+

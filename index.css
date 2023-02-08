@@ -56,7 +56,6 @@
  margin-right: 80px;
   display: flex;
   padding:0px  60px;
-  /* gap: 900px; */
 }
 
 .nav__close {
@@ -64,7 +63,6 @@
 }
 
 .hero__section_container {
-  /* background: url(assets/img/hero.jpg); */
   background: url(https://vedpad.com/wp-content/uploads/2022/01/Web-Banner-01-1526x1080.jpg);
   background-size: cover;
   align-items: center;
